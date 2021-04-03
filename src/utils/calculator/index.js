@@ -1,6 +1,6 @@
 class calculator {
     constructor(expression) {
-        this.whiteList = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '+', '*', '/', '-', '.', '(', ')', '^', '%']
+        this.whiteList = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '+', '*', '/', '-', '.', '(', ')', '**', '%']
         this.whiteListStr = this.whiteList.join('')
         this.expression = ''
         this.result = ''
@@ -13,7 +13,7 @@ class calculator {
         let my_exp
         let my_result
 
-        if (!valideExpInternal && !valideExpParameter) return
+        if (!valideExpInternal && !valideExpParameter) return 
         if (!valideExpInternal && valideExpParameter) {
             my_exp = exp
             my_result = eval(exp)

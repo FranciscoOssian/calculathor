@@ -1,9 +1,9 @@
-import React from 'react';
-import {SafeAreaView, StyleSheet} from 'react-native';
+import React from 'react'
+import {SafeAreaView, StyleSheet} from 'react-native'
 
 import Routes from './src/routes'
 
-console.log('loaded, this console.log is in app.js');
+console.log('loaded, this console.log is in app.js')
 
 export default function App() {
   return (
@@ -16,6 +16,6 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    marginTop: 30
+    marginTop: 30,
   },
 });
