@@ -9,3 +9,5 @@ A calculator for the gods. Just a Fun project os a calculator, build with react 
     width="100"
     src="https://play-lh.googleusercontent.com/1ML3xcZJTFO-nYGXa1eUpH4xwdxThWXsLbHrZMXosDO_sW422wEXS0HGLbFii9PTgdw=w1366-h667-rw"/>
 </p>
+
+https://play.google.com/store/apps/details?id=com.foln.calculathor
